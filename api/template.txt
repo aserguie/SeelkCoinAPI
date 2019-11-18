@@ -1,0 +1,5 @@
+{{title|safe}}
+
+{{text|safe}}
+
+{% if link %}{{link}}{% endif %}

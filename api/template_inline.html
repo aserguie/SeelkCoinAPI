@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <style>
+    body {
+      margin: 0;
+      padding: 0
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p {
+      font-family: open sans, helvetica neue, helvetica, arial, sans-serif
+    }
+
+    h1 {
+      font-size: 28px
+    }
+
+    p {
+      font-size: 18px;
+      color: #757575;
+      line-height: 1.5
+    }
+
+    .Mail {
+      width: 100%;
+      padding: 2.5%
+    }
+
+    .Title {
+      color: #FF6700;
+      text-align: center;
+      margin: 80px 0 20px
+    }
+
+    .Text {
+      margin: 0 0 100px
+    }
+  </style>
+</head>
+
+<body
+  style="margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;">
+  <table class="Mail"
+    style="width:100%;padding-top:2.5%;padding-bottom:2.5%;padding-right:2.5%;padding-left:2.5%;">
+<!--     <thead class="ernestiMail__header">
+      <tr>
+        <td>
+          <a href="http://www.ernesti.fr/" target="_blank"
+            style="font-family:open sans,helvetica neue,helvetica,arial,sans-serif;text-decoration:none;">
+            <img src="cid:logo.png" alt="Site web Ernesti" class="ernestiLogo" style="display:block;width:55%;" />
+          </a>
+        </td>
+      </tr>
+    </thead> -->
+    <tbody class="Mail__body">
+      <tr>
+        <td>
+          <h1 class="Title"
+            style="font-family:open sans,helvetica neue,helvetica,arial,sans-serif;font-size:28px;color:#FF6700;text-align:center;margin-top:80px;margin-bottom:20px;margin-right:0;margin-left:0;">
+            {{title|safe}}
+          </h1>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="Text"
+            style="font-family:open sans,helvetica neue,helvetica,arial,sans-serif;font-size:18px;color:#757575;line-height:1.5;margin-top:0;margin-bottom:100px;margin-right:0;margin-left:0;">
+            {{text|safe}}
+          </p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+
+</html>
