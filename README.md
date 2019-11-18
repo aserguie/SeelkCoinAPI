@@ -27,7 +27,7 @@ source env/bin/activate
 Then install requirements:
 
 ```
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 Last step before using the API is creating a super user:
