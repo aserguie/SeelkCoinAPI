@@ -45,6 +45,18 @@ password:         password
 confirm_password: password
 ```
 
+You can then run the project by typing:
+
+```
+python manage.py runserver
+```
+
+and the celery worker (in a different window):
+
+```
+celery -A api worker -l info -E
+```
+
 ## API Content
 
 This API allows:
